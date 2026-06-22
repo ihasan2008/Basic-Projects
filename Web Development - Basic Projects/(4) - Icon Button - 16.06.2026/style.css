@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-btn {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon-btn:hover {
+    transform: scale(1.05);
+}
+
+.icon-btn:active {
+    transform: scale(0.95);
+}
