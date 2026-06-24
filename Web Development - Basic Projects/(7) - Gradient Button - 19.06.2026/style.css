@@ -1,0 +1,63 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+}
+
+/* Gradient Button */
+
+.gradient-btn {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient( 90deg, #667eea, #764ba2, #f093fb, #f5576c );
+    background-size: 300% 300%;
+    transition: all 0.4s ease;
+    animation: gradientMove 5s ease infinite;
+    box-shadow: 0 0 15px rgba( 102, 126, 234, 0.4 );
+}
+
+/* Hover */
+
+.gradient-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba( 245, 87, 108, 0.6 ),
+    0 0 40px rgba( 118, 75, 162, 0.5 );
+}
+
+/* Click */
+
+.gradient-btn:active {
+    transform: scale(0.95);
+}
+
+/* Animation */
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
