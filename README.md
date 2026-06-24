@@ -1,4 +1,4 @@
-# Basic Projects Collection
+# Web Development - Basic Projects Collection
 
 A collection of beginner-friendly web development projects created using HTML, CSS, and JavaScript. These projects are designed to help practice programming concepts, improve problem-solving skills, and build a strong foundation in web development.
 
